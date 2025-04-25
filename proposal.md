@@ -2,7 +2,7 @@
 
 ## Grupo
 ### Integrantes
-* legajo - Apellido(s), Nombre(s)
+* 47542 - Hildebrandt, Lucas ---
 
 ### Repositorios
 * [frontend app](http://hyperlinkToGihubOrGitlab)
