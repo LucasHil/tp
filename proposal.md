@@ -2,7 +2,7 @@
 
 ## Grupo
 ### Integrantes
-* 47542 - Hildebrandt, Lucas ---
+* 47542 - Hildebrandt, Lucas
 
 ### Repositorios
 * [frontend app](http://hyperlinkToGihubOrGitlab)
@@ -11,12 +11,10 @@
 
 ## Tema
 ### Descripción
-*2 a 6 líneas describiendo el negocio (menos es más)*
+La tienda de indumentaria HL nos contrató para desarrollar un sistema de ventas online. Se especializan en calzado y accesorios, y cuentan con un área de "Outlet" para productos discontinuos o con fallas. El sitio web debe permitir a los clientes buscar productos, filtrarlos, agregarlos al carrito, pagar y elegir entre retiro o envío. También solicitan una función de "favoritos" para guardar productos, y de esos "favoritos" recibir alertas de ofertas, compartir listas y aplicar cupones.
 
 ### Modelo
-![imagen del modelo]()
-
-*Nota*: incluir un link con la imagen de un modelo, puede ser modelo de dominio, diagrama de clases, DER. Si lo prefieren pueden utilizar diagramas con [Mermaid](https://mermaid.js.org) en lugar de imágenes.
+![alt text](image.png)
 
 ## Alcance Funcional 
 
@@ -27,17 +25,17 @@
 Regularidad:
 |Req|Detalle|
 |:-|:-|
-|CRUD simple|1. CRUD Tipo Habitacion<br>2. CRUD Servicio<br>3. CRUD Localidad|
-|CRUD dependiente|1. CRUD Habitación {depende de} CRUD Tipo Habitacion<br>2. CRUD Cliente {depende de} CRUD Localidad|
-|Listado<br>+<br>detalle| 1. Listado de habitaciones filtrado por tipo de habitación, muestra nro y tipo de habitación => detalle CRUD Habitacion<br> 2. Listado de reservas filtrado por rango de fecha, muestra nro de habitación, fecha inicio y fin estadía, estado y nombre del cliente => detalle muestra datos completos de la reserva y del cliente|
-|CUU/Epic|1. Reservar una habitación para la estadía<br>2. Realizar el check-in de una reserva|
+|CRUD simple|1. CRUD Tipo Cliente|
+|CRUD dependiente|1. CRUD Producto {depende de} CRUD Categoría<br>2. CRUD Cliente {depende de} CRUD Localidad|
+|Listado<br>+<br>detalle| 1. El cliente puede ver un listado de productos filtrado por categoría, como "Zapatillas", "Zapatos", "Accesorios", etc => detalle CRUD Producto<br> 2. El listado debe mostrar el nombre del producto y el precio => detalle muestra nombre, descripción, precio, stock disponible|
+|CUU/Epic|1. Agreegar producto al carrito de compras<br>2. Realizar pago y envío|
 
 
 Adicionales para Aprobación
 |Req|Detalle|
 |:-|:-|
-|CRUD |1. CRUD Tipo Habitacion<br>2. CRUD Servicio<br>3. CRUD Localidad<br>4. CRUD Provincia<br>5. CRUD Habitación<br>6. CRUD Empleado<br>7. CRUD Cliente|
-|CUU/Epic|1. Reservar una habitación para la estadía<br>2. Realizar el check-in de una reserva<br>3. Realizar el check-out y facturación de estadía y servicios|
+|CRUD |1. CRUD Tipo Producto<br>2. CRUD Categoría<br>3. CRUD Cliente<br>4. CRUD Favorito<br>5. CRUD Pedidos<br>CRUD Pago|
+|CUU/Epic|1. Agreegar producto al carrito de compras<br>2. Realizar pago y envío<br>3. Agregar productos a favoritos y obtener novedades|
 
 
 ### Alcance Adicional Voluntario
@@ -46,7 +44,7 @@ Adicionales para Aprobación
 
 |Req|Detalle|
 |:-|:-|
-|Listados |1. Estadía del día filtrado por fecha muestra, cliente, habitaciones y estado <br>2. Reservas filtradas por cliente muestra datos del cliente y de cada reserve fechas, estado cantidad de habitaciones y huespedes|
-|CUU/Epic|1. Consumir servicios<br>2. Cancelación de reserva|
-|Otros|1. Envío de recordatorio de reserva por email|
+|Listados |1. Historial de productos filtrados por cliente muestra datos del pedido, estado y descripción|
+|CUU/Epic|1. Cancelación pedido<br>|
+|Otros|1. Envío de ubicación del pedido por mail cuando es enviado|
 
