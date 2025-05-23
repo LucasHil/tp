@@ -2,7 +2,7 @@
 
 ## Grupo
 ### Integrantes
-* 47542 - Hildebrandt, Lucas
+* 47542 - Hildebrandt, Lucas.
 
 ### Repositorios
 * [frontend app](http://hyperlinkToGihubOrGitlab)
