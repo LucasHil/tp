@@ -14,7 +14,6 @@
 La tienda de indumentaria HL nos contrató para desarrollar un sistema de ventas online. Se especializan en calzado y accesorios, y cuentan con un área de "Outlet" para productos discontinuos o con fallas. El sitio web debe permitir a los clientes buscar productos, filtrarlos, agregarlos al carrito, pagar y elegir entre retiro o envío. También solicitan una función de "favoritos" para guardar productos, y de esos "favoritos" recibir alertas de ofertas, compartir listas y aplicar cupones.
 
 ### Modelo
-![alt text](image.png)
 
 ## Alcance Funcional 
 
