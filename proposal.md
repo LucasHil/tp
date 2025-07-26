@@ -33,8 +33,8 @@ Regularidad:
 Adicionales para Aprobación
 |Req|Detalle|
 |:-|:-|
-|CRUD |1. CRUD Tipo Producto<br>2. CRUD Categoría<br>3. CRUD Cliente<br>4. CRUD Favorito<br>5. CRUD Pedidos<br>5. CRUD administrador<br>7. CRUD Pago|
-|CUU/Epic|1. Agreegar producto al carrito de compras<br>2. Realizar pago y envío<br>3. Agregar productos a favoritos y obtener novedades|
+|CRUD |1. CRUD Tipo Producto<br>2. CRUD Categoría<br>3. CRUD Cliente<br>4. CRUD Favorito<br>5. CRUD Pedidos<br>5. CRUD Administrador<br>7. CRUD Pago|
+|CUU/Epic|1. Agregar productos a favoritos<br>2. Recibir alertas de novedades en favoritos<br>3. Compartir lista de favoritos|
 
 
 ### Alcance Adicional Voluntario
