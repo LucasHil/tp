@@ -43,7 +43,7 @@ Adicionales para Aprobación
 
 |Req|Detalle|
 |:-|:-|
-|Listados |1. Historial de productos filtrados por cliente muestra datos del pedido, estado y descripción|
-|CUU/Epic|1. Cancelación pedido<br>|
-|Otros|1. Envío de ubicación del pedido por mail cuando es enviado|
+|Listados |1. Historial de productos filtrados por cliente muestra datos del pedido, estado y descripción.|
+|CUU/Epic|1. Cancelación pedido.<br>|
+|Otros|1. Envío de notificación por email con ubicación del pedido cuando es despachado.|
 
