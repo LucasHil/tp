@@ -26,7 +26,7 @@ Regularidad:
 |:-|:-|
 |CRUD simple|1. CRUD Tipo Categoría|
 |CRUD dependiente|1. CRUD Producto {depende de} CRUD Categoría<br>2. CRUD Cliente {depende de} CRUD Localidad|
-|Listado<br>+<br>detalle| 1. El cliente puede ver un listado de productos filtrado por categoría, como "Zapatillas", "Zapatos", "Accesorios", etc => detalle CRUD Producto<br> 2. El listado debe mostrar el nombre del producto y el precio => detalle muestra nombre, descripción, precio, stock disponible|
+|Listado<br>+<br>detalle| 1. El cliente puede ver un listado de productos filtrado por categoría, como "Zapatillas", "Zapatos", "Accesorios", etc => detalle CRUD Producto<br> 2. El listado muestra nombre, descripción, precio y stock disponible.|
 |CUU/Epic|1. Comprar Producto|
 
 
